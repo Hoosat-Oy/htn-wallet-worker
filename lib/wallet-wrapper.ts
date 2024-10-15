@@ -121,6 +121,12 @@ class WalletWrapper extends EventTargetImpl{
 		return myWallet;
 	}
 
+	static async decrypt(password: string, encryptedMnemonic: string) {
+		const decrypted = await Wallet.passwordHandler.decrypt(password, encryptedMnemonic);
+		const savedWallet = JSON.parse(decrypted) as WalletSave;
+		return savedWallet
+	} 
+
 	//@ts-ignore
 	worker:Worker;
 	isWorkerReady=false;
