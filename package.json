@@ -1,6 +1,6 @@
 {
   "name": "@hoosat/wallet-worker",
-  "version": "1.1.25",
+  "version": "1.1.26",
   "description": "Worker (node + browser) wrapping hoosat-wallet",
   "main": "dist/index.js",
   "author": "Hoosat Developers",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@aspectron/flow-logger": ">=1.0.1",
     "@aspectron/web-worker": "^1.0.0",
-    "@hoosat/wallet": ">=1.4.26"
+    "@hoosat/wallet": ">=1.4.28"
   },
   "devDependencies": {
     "@types/node": "^14.18.63",
