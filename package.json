@@ -1,9 +1,9 @@
 {
-  "name": "@kaspa/wallet-worker",
+  "name": "@hoosat/wallet-worker",
   "version": "1.1.25",
-  "description": "Worker (node + browser) wrapping kaspa-wallet",
+  "description": "Worker (node + browser) wrapping hoosat-wallet",
   "main": "dist/index.js",
-  "author": "Kaspa Developers",
+  "author": "Hoosat Developers",
   "license": "ISC",
   "scripts": {
     "watch": "tsc --watch",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@aspectron/flow-logger": ">=1.0.1",
     "@aspectron/web-worker": "^1.0.0",
-    "@kaspa/wallet": "file:../htn-wallet"
+    "@hoosat/wallet": ">=1.4.26"
   },
   "devDependencies": {
     "@types/node": "^14.18.63",
